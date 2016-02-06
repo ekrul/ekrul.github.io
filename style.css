@@ -1,0 +1,33 @@
+body {
+    background: white url("plains-zebra-7435_1920.jpg") no-repeat center;
+}
+
+span {
+  font-weight: bold;
+  font-size: 30px;
+}
+@media (min-width: 768px) {
+  span {
+    font-size: 36px;
+  }
+}
+
+#presentation {
+  margin-top: 50px;
+  padding: 20px;
+  border: none;
+  border-radius: 2%;
+
+}
+
+#job-title {
+  margin-right: -20px;
+  margin-left: -10px;
+  padding-left: 10px;
+  background-color: orange;
+  border-color: orange;
+}
+
+.no-left-padding {
+  padding-left: 0;
+}
