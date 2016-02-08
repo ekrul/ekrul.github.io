@@ -3,7 +3,7 @@
 }
 
 body {
-    background: grey url("plains-zebra-7435_1920.jpg") no-repeat center;
+    background: #ffe4b3 url("plains-zebra-7435_1920.jpg") no-repeat center;
     font-size: 10px;
 }
 
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: orange;
+  color: #FFA500;
 }
 
 
@@ -29,7 +29,7 @@ a:hover {
   margin-left: -0.8em;
   padding-left: 1em;
   font-size: 1.8em;
-  background-color: orange;
+  background-color: #FFA500;
   border: none;
   border-radius: 0.5em 0 0 0.5em;
 }
@@ -39,7 +39,7 @@ a:hover {
   font-size: 1.4em;
 }
 
-@media(min-width:768px) and (max-width:991px){
+@media(min-width:768px) {
   body {
     font-size: 12px;
   }
@@ -51,15 +51,8 @@ a:hover {
   }
 }
 
-@media(min-width:992px) /*and (max-width:1199px)*/{
-  body {
-    font-size: 12px;
-  }
-  a {
-    font-size: 1.8em;
-  }
+@media(min-width:992px) {
   h2 {
-    font-size: 3.2em;
     margin-bottom: 0.5em;
   }
   #presentation {
