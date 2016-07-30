@@ -3,7 +3,7 @@ a {
   color: grey;
 }
 
-a:hover {
+a:hover, a:focus {
   color: #FFA500;
 }
 
@@ -15,6 +15,10 @@ a:hover {
 body {
     background: #ffe4b3 url("plains-zebra-7435_1920.jpg") no-repeat center;
     font-size: 10px;
+}
+
+.fa {
+  font-size: 1.4em;
 }
 
 #job-title {
